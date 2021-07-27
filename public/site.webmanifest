@@ -1,0 +1,52 @@
+{
+  "name": "Fred Schaap Dienstverlening",
+  "short_name": "Fred Schaap",
+  "icons": [
+    {
+      "src": "https://fredschaap.nl/assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://fredschaap.nl/assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://fredschaap.nl/assets/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#55B748",
+  "background_color": "#55B748",
+  "display": "standalone",
+  "start_url": "https://fredschaap.nl/",
+  "lang": "Dutch",
+  "screenshots": [
+    {
+      "src": "https://fredschaap.nl/assets/fredschaap-screenshot-website.png",
+      "sizes": "1280x720",
+      "type": "image/webp"
+    }
+  ],
+  "orientation": "portrait",
+  "scope": "https://fredschaap.nl/",
+  "description": "Beheerder: Fred Schaap, Timmerwerk: voor vlonders, aanbouw, schuurtjes, buitenverblijven, kleine en grote projekten, Graafwerk: tuin, terras, bestrating, beschoeiingen, damwanden, waterkanten, tuinsteigers, Regio: Weesp en omstreken",
+  "categories": [
+    "timmerwerk",
+    "vlonders",
+    "aanbouw",
+    "schuurtjes",
+    "buitenverblijven",
+    "bestrating"
+  ],
+  "shortcuts": [
+    {
+      "name": "Fred's Frontpage Worksite",
+      "url": "/",
+      "description": "Beheerder: Fred Schaap, Timmerwerk: voor vlonders, aanbouw, schuurtjes, buitenverblijven, kleine en grote projekten, Graafwerk: tuin, terras, bestrating, beschoeiingen, damwanden, waterkanten, tuinsteigers, Regio: Weesp en omstreken"
+    }
+  ]
+}
