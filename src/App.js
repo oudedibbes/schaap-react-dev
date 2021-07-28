@@ -269,7 +269,7 @@ function App() {
                   font-poppins font-extralight mt-10 mb-10
                   sm:mr-12 md:mr-0'>Built by: <a
                   href='https://www.linkedin.com/in/ren%C3%A9-enge-8a2b88217/'
-                  title='Check Oude Dibbes op LinkedIn'
+                  title='Check René Enge op LinkedIn'
                   rel='noreferrer'
                   target='_blank'
                 >
