@@ -195,7 +195,7 @@ function App() {
                     ></path>
                   </svg>
                 </span>
-                <a rel='noreferrer' href='https://fredschaap.nl'>fredschaap.nl</a>
+                <a rel='noreferrer' href='https://www.fredschaap.nl'>www.fredschaap.nl</a>
               </p>
               <div className='mt-4 space-x-1 sm:mt-6'>
                 <a
@@ -267,7 +267,7 @@ function App() {
             </div>
             <div className='flex justify-center items-center text-xs text-center text-schaap-900
                   font-poppins font-extralight mt-10 mb-10
-                  sm:mr-12 md:mr-0'>Built by: <a
+                  sm:mr-12 md:mr-0'>Built by:&nbsp;<a
                   href='https://www.linkedin.com/in/ren%C3%A9-enge-8a2b88217/'
                   title='Check René Enge op LinkedIn'
                   rel='noreferrer'
