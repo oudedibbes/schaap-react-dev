@@ -46,7 +46,7 @@ function App() {
                 alt='Logo en huisstyle website Fred Schaap'
               />
               <h4
-                className='
+                className=' hidden lg:block
                   mt-2
                   text-xl text-center
                   font-roboto font-bold
@@ -56,7 +56,7 @@ function App() {
                   xl:text-3xl
                 '
               >
-                Fred Schaap
+                Fred Schaap&nbsp;
                 <span className='text-schaap-600 dark:text-gray-100 font-light'>
                   Dienstverlening
                 </span>
@@ -81,13 +81,13 @@ function App() {
               <h1
                 className='
                   mt-6
-                  text-3xl
+                  text-4xl
                   font-roboto font-bold
                   text-schaap-800
                   dark:text-gray-100
                   sm:mt-8
                   lg:text-3xl
-                  xl:text-4xl
+                  xl:text-6xl
                 '
               >
                 Fred Schaap
@@ -95,7 +95,7 @@ function App() {
               <h2
                 className='
                   mt-1
-                  text-xl
+                  text-2xl
                   font-roboto
                   text-schaap-800
                   dark:text-gray-100
@@ -139,7 +139,7 @@ function App() {
                     ></path>
                   </svg>
                 </span>
-                <a href='tel:+31615050976'>+31 6 15 05 09 76</a>
+                <a href='tel:+31615050976' title='Telefoneer met Fred Schaap'>+31 6 15 05 09 76</a>
                 <br />
                 <span className='relative inline-block top-1.5'>
                   <svg width='24' height='24' fill='none' viewBox='0 0 24 24'>
@@ -195,7 +195,7 @@ function App() {
                     ></path>
                   </svg>
                 </span>
-                <a rel='noreferrer' href='https://www.fredschaap.nl'>www.fredschaap.nl</a>
+                <a rel='noreferrer' href='https://www.fredschaap.nl' title='Fred Schaap op het Internet'>www.fredschaap.nl</a>
               </p>
               <div className='mt-4 space-x-1 sm:mt-6'>
                 <a
@@ -269,7 +269,7 @@ function App() {
                   font-poppins font-extralight mt-10 mb-10
                   sm:mr-12 md:mr-0'>Built by:&nbsp;<a
                   href='https://www.linkedin.com/in/ren%C3%A9-enge-8a2b88217/'
-                  title='Check René Enge op LinkedIn'
+                  title='Check profiel van René Enge op LinkedIn'
                   rel='noreferrer'
                   target='_blank'
                 >
@@ -323,7 +323,7 @@ function App() {
               xl:text-3xl
             '
           >
-            Fred Schaap
+            Fred Schaap&nbsp;
             <span className='text-schaap-500 dark:text-gray-100 font-light'>
               Dienstverlening
             </span>
