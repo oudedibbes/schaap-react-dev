@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^12.1.0",
-    "@testing-library/user-event": "^13.2.1",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^2.1.0"
+    "serve": "^13.0.2",
+    "web-vitals": "^2.1.2"
   },
   "scripts": {
     "start": "craco start -w",
@@ -36,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^6.3.0",
+    "@craco/craco": "^6.4.0",
     "autoprefixer": "^9",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
