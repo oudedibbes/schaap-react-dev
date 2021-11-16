@@ -3,50 +3,23 @@ import './index.css';
 
 function App() {
   return (
-    <div
-      className='
-        bg-gray-100
-        dark:bg-gray-800
-        lg:bg-schaap-500
-        grid
-        lg:grid-cols-2
-        2xl:grid-cols-4
-        h-screen
-      '
-    >
-      <div
-        className='
-          w-full
-          mx-auto
-          flex
-          items-center
-          sm:max-w-xl
-          lg:px-12
-          lg:py-24
-          lg:max-w-full
-          xl:mr-0
-          2xl:col-span-2
-        '
-      >
-        <div className='mt-0 mr-0 mb-0 ml-auto xl:w-6/12'>
-          <div className='relative max-w-xl min-h-full m-auto h-44 mt-4 lg:hidden'>
+    <div className="bg-gray-100 dark:bg-gray-800 lg:bg-schaap-500 grid lg:grid-cols-2 2xl:grid-cols-4 h-screen">
+      <div className="w-full mx-auto flex items-center sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
+        <div className="mt-0 mr-0 mb-0 ml-auto xl:w-6/12">
+          <div className="relative max-w-xl min-h-full m-auto h-44 mt-4 lg:hidden">
             <div
-              className='
+              className="
                 absolute
                 top-1/2
                 left-1/2
                 transform
                 -translate-x-1/2 -translate-y-1/2
                 w-10/12
-              '
+              "
             >
-              <img
-                className=''
-                src={logo}
-                alt='Logo en huisstyle website Fred Schaap'
-              />
+              <img className="" src={logo} alt="Logo en huisstyle website Fred Schaap" />
               <h4
-                className=' hidden lg:block
+                className="hidden lg:block
                   mt-2
                   text-xl text-center
                   font-roboto font-bold
@@ -54,32 +27,32 @@ function App() {
                   dark:text-gray-100
                   lg:text-2xl
                   xl:text-3xl
-                '
+                "
               >
                 Fred Schaap&nbsp;
-                <span className='text-schaap-600 dark:text-gray-100 font-light'>
+                <span className="text-schaap-600 dark:text-gray-100 font-light">
                   Dienstverlening
                 </span>
               </h4>
             </div>
           </div>
-          <div className='relative bg-schaap-500 pt-1 pb-1'>
-            <div className='custom-shape-divider-top lg:hidden'>
+          <div className="relative bg-schaap-500 pt-1 pb-1">
+            <div className="custom-shape-divider-top lg:hidden">
               <svg
-                data-name='Layer 1'
-                xmlns='http://www.w3.org/2000/svg'
-                viewBox='0 0 1200 120'
-                preserveAspectRatio='none'
+                data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1200 120"
+                preserveAspectRatio="none"
               >
                 <path
-                  d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z'
-                  className='fill-current text-gray-100 dark:text-gray-800'
+                  d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                  className="fill-current text-gray-100 dark:text-gray-800"
                 ></path>
               </svg>
             </div>
-            <div className='relative ml-12 mb-0 sm:mr-12 md:mr-0'>
+            <div className="relative ml-12 mb-0 sm:mr-12 md:mr-0">
               <h1
-                className='
+                className="
                   mt-6
                   text-4xl
                   font-roboto font-bold
@@ -88,12 +61,12 @@ function App() {
                   sm:mt-8
                   lg:text-3xl
                   xl:text-6xl
-                '
+                "
               >
                 Fred Schaap
               </h1>
               <h2
-                className='
+                className="
                   mt-1
                   text-2xl
                   font-roboto
@@ -102,104 +75,109 @@ function App() {
                   sm:mt-1
                   lg:text-1xl
                   xl:text-2xl
-                '
+                "
               >
                 Dienstverlening
               </h2>
               <p
-                className='
+                className="
                   mt-8
                   text-schaap-900
                   font-poppins font-extralight
                   sm:mt-4
                   sm:text-xl
-                '
+                "
               >
                 Johannes Vermeerstraat 28
                 <br />
                 1382 AT Weesp
               </p>
               <p
-                className='
+                className="
                   text-schaap-900
                   font-poppins font-extralight
                   sm:mt-4
                   sm:text-xl
-                '
+                "
               >
-                <span className='relative inline-block top-1.5'>
-                  <svg width='24' height='24' fill='none' viewBox='0 0 24 24'>
+                <span className="relative inline-block top-1.5">
+                  <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path
-                      fill='#fff'
-                      stroke='currentColor'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth='1.5'
-                      d='M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z'
+                      fill="#fff"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z"
                     ></path>
                   </svg>
                 </span>
-                <a href='tel:+31615050976' title='Telefoneer met Fred Schaap'>+31 6 15 05 09 76</a>
+                <a href="tel:+31615050976" title="Telefoneer met Fred Schaap">
+                  +31 6 15 05 09 76
+                </a>
                 <br />
-                <span className='relative inline-block top-1.5'>
-                  <svg width='24' height='24' fill='none' viewBox='0 0 24 24'>
+                <span className="relative inline-block top-1.5">
+                  <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path
-                      fill='#fff'
-                      stroke='currentColor'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth='1.5'
-                      d='M4.75 7.75C4.75 6.64543 5.64543 5.75 6.75 5.75H17.25C18.3546 5.75 19.25 6.64543 19.25 7.75V16.25C19.25 17.3546 18.3546 18.25 17.25 18.25H6.75C5.64543 18.25 4.75 17.3546 4.75 16.25V7.75Z'
+                      fill="#fff"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M4.75 7.75C4.75 6.64543 5.64543 5.75 6.75 5.75H17.25C18.3546 5.75 19.25 6.64543 19.25 7.75V16.25C19.25 17.3546 18.3546 18.25 17.25 18.25H6.75C5.64543 18.25 4.75 17.3546 4.75 16.25V7.75Z"
                     ></path>
                     <path
-                      stroke='currentColor'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth='1.5'
-                      d='M5.5 6.5L12 12.25L18.5 6.5'
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M5.5 6.5L12 12.25L18.5 6.5"
                     ></path>
                   </svg>
                 </span>
-                <a
-                  href='mailto:info@fredschaap.nl'
-                  title='Mail met Fred Schaap'
-                >
+                <a href="mailto:info@fredschaap.nl" title="Mail met Fred Schaap">
                   info@fredschaap.nl
                 </a>
                 <br />
-                <span className='relative inline-block top-1.5'>
-                  <svg width='24' height='24' fill='none' viewBox='0 0 24 24'>
+                <span className="relative inline-block top-1.5">
+                  <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <circle
-                      cx='12'
-                      cy='12'
-                      r='7.25'
-                      stroke='currentColor'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth='1.5'
-                      fill='#fff'
+                      cx="12"
+                      cy="12"
+                      r="7.25"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      fill="#fff"
                     ></circle>
                     <path
-                      stroke='currentColor'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth='1.5'
-                      d='M15.25 12C15.25 16.5 13.2426 19.25 12 19.25C10.7574 19.25 8.75 16.5 8.75 12C8.75 7.5 10.7574 4.75 12 4.75C13.2426 4.75 15.25 7.5 15.25 12Z'
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M15.25 12C15.25 16.5 13.2426 19.25 12 19.25C10.7574 19.25 8.75 16.5 8.75 12C8.75 7.5 10.7574 4.75 12 4.75C13.2426 4.75 15.25 7.5 15.25 12Z"
                     ></path>
                     <path
-                      stroke='currentColor'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth='1.5'
-                      d='M5 12H12H19'
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M5 12H12H19"
                     ></path>
                   </svg>
                 </span>
-                <a rel='noreferrer' href='https://www.fredschaap.nl' title='Fred Schaap op het Internet'>www.fredschaap.nl</a>
-              </p>
-              <div className='mt-4 space-x-1 sm:mt-6'>
                 <a
-                  className='
+                  rel="noreferrer"
+                  href="https://www.fredschaap.nl"
+                  title="Fred Schaap op het Internet"
+                >
+                  www.fredschaap.nl
+                </a>
+              </p>
+              <div className="mt-4 space-x-1 sm:mt-6">
+                <a
+                  className="
                     btn btn-primary
                     bg-schaap-800
                     text-gray-100
@@ -215,104 +193,106 @@ function App() {
                     dark:text-gray-800
                     dark:hover:bg-gray-800
                     dark:hover:text-gray-100
-                  '
-                  href='mailto:info@fredschaap.nl'
-                  title='Mail met Fred Schaap'
+                  "
+                  href="mailto:info@fredschaap.nl"
+                  title="Mail met Fred Schaap"
                 >
                   Contact met Fred
                 </a>
               </div>
-              <div className='relative flex flex-wrap mt-4'>
-                <div className='tags' title='vlonders'>
+              <div className="relative flex flex-wrap mt-4">
+                <div className="tags" title="vlonders">
                   vlonders
                 </div>
-                <div className='tags' title='aanbouw'>
+                <div className="tags" title="aanbouw">
                   aanbouw
                 </div>
-                <div className='tags' title='schuurtjes'>
+                <div className="tags" title="schuurtjes">
                   schuurtjes
                 </div>
-                <div className='tags' title='tuinen'>
+                <div className="tags" title="tuinen">
                   tuinen
                 </div>
-                <div className='tags' title='terras'>
+                <div className="tags" title="terras">
                   terras
                 </div>
-                <div className='tags' title='bestrating'>
+                <div className="tags" title="bestrating">
                   bestrating
                 </div>
-                <div className='tags' title='beschoeiingen'>
+                <div className="tags" title="beschoeiingen">
                   beschoeiingen
                 </div>
-                <div className='tags' title='damwanden'>
+                <div className="tags" title="damwanden">
                   damwanden
                 </div>
-                <div className='tags' title='waterkanten'>
+                <div className="tags" title="waterkanten">
                   waterkanten
                 </div>
-                <div className='tags' title='tuinsteigers'>
+                <div className="tags" title="tuinsteigers">
                   tuinsteigers
                 </div>
-                <div className='tags' title='opschot'>
+                <div className="tags" title="opschot">
                   opschot
                 </div>
-                <div className='tags' title='tuinmeubilair'>
+                <div className="tags" title="tuinmeubilair">
                   tuinmeubilair
                 </div>
-                <div className='tags' title='tuinverlichting'>
+                <div className="tags" title="tuinverlichting">
                   tuinverlichting
                 </div>
               </div>
-              
             </div>
-            <div className='flex justify-center items-center text-xs text-center text-schaap-900
+            <div
+              className="flex justify-center items-center text-xs text-center text-schaap-900
                   font-poppins font-extralight mt-10 mb-10
-                  sm:mr-12 md:mr-0'>Built by:&nbsp;<a
-                  href='https://www.linkedin.com/in/ren%C3%A9-enge-8a2b88217/'
-                  title='Check profiel van René Enge op LinkedIn'
-                  rel='noreferrer'
-                  target='_blank'
+                  sm:mr-12 md:mr-0"
+            >
+              Built by:&nbsp;
+              <a
+                href="https://www.linkedin.com/in/ren%C3%A9-enge-8a2b88217/"
+                title="Check profiel van René Enge op LinkedIn"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Ren&eacute;
+              </a>
+              <span className="ml-1">
+                <svg
+                  className="fill-current text-schaap-900"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
                 >
-                  Ren&eacute;
-                </a><span className='ml-1'>
-                  <svg className='fill-current text-schaap-900' width='12' height='12' viewBox='0 0 24 24'>
-                    <path
-                      d='M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z'
-                    ></path>
-                  </svg>
-                </span>
-              </div>
+                  <path d="M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z"></path>
+                </svg>
+              </span>
+            </div>
           </div>
-          
         </div>
       </div>
       <div
-        className='
+        className="
           bg-gray-100
           dark:bg-gray-800
           hidden
           relative
           lg:block
           2xl:col-span-2
-        '
+        "
       >
         <div
-          className='
+          className="
             absolute
             top-1/2
             left-1/2
             transform
             -translate-x-1/2 -translate-y-1/2
             w-8/12
-          '
+          "
         >
-          <img
-            className=''
-            src={logo}
-            alt='Logo en huisstyle website Fred Schaap'
-          />
+          <img className="" src={logo} alt="Logo en huisstyle website Fred Schaap" />
           <h1
-            className='
+            className="
               mt-2
               text-center text-2xl
               font-roboto font-bold
@@ -321,29 +301,25 @@ function App() {
               sm:text-4xl
               lg:text-2xl
               xl:text-3xl
-            '
+            "
           >
             Fred Schaap&nbsp;
-            <span className='text-schaap-500 dark:text-gray-100 font-light'>
-              Dienstverlening
-            </span>
+            <span className="text-schaap-500 dark:text-gray-100 font-light">Dienstverlening</span>
           </h1>
         </div>
         <svg
-          className='absolute inset-0 h-full'
-          data-name='Layer 1'
-          xmlns='http://www.w3.org/2000/svg'
-          viewBox='0 0 1024 1024'
-          preserveAspectRatio='none'
+          className="absolute inset-0 h-full"
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1024 1024"
+          preserveAspectRatio="none"
         >
           <path
-            fill='#4eb850'
-            d='M0 0v1024h759.5S36.1 886.07 8.31 465.32C-2.47 302.13 93.94 139.24 216 .97'
+            fill="#4eb850"
+            d="M0 0v1024h759.5S36.1 886.07 8.31 465.32C-2.47 302.13 93.94 139.24 216 .97"
           />
         </svg>
-        
       </div>
-      
     </div>
   );
 }
