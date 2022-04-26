@@ -25,3 +25,6 @@ yarn-error.log*
 # backup files .bak
 *.bak
 .bak
+
+# Local Netlify folder
+.netlify
